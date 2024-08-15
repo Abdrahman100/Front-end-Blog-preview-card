@@ -28,29 +28,30 @@ img{
     border-radius: 1rem;
 }
 .blog-preview-card{
-    max-width: 400px;
+    max-width: 350px;
     padding: 1.5rem;
     margin: 1rem;
     background: var(--card-color);
     border-radius: 1rem;
     outline: solid 1px var(--titel-color);
-    box-shadow: 15px 15px var(--titel-color);
+    box-shadow: 5px 5px var(--titel-color);
 }
 
 .top-of-card .Learn{
     background: var(--bg-color);
     width:min-content;
-    padding: .5rem;
-    margin-top: 1.5rem;
-    border-radius: .5rem;
+    padding: .2rem .5rem;
+    margin-top: 1.3rem;
+    border-radius: .3rem;
     font-weight: 800;
     color: var(--titel-color);
 }
-.top-of-card h5{
-    margin-top: 1.5rem;
+.top-of-card .Publish{
+    margin-top: 1rem;
+    color: var(--titel-color);
 }
 .top-of-card h1{
-    margin: 1rem 0;
+    margin: .5rem 0;
 }
 .top-of-card h1 a{
     color: var(--titel-color);
