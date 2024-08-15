@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@800&display=swap');
+:root {
+    --bg-color: hsl(47, 88%, 63%);
+    --card-color: hsl(0, 0%, 100%);
+    --text-color500: hsl(0, 0%, 42%);
+    --titel-color: hsl(0, 0%, 7%);
+}
+*{
+    padding:0;
+    margin:0;
+    font-family: "Figtree", sans-serif;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+body{
+    background: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 1rem;
+}
+.blog-preview-card{
+    max-width: 400px;
+    padding: 1.5rem;
+    margin: 1rem;
+    background: var(--card-color);
+    border-radius: 1rem;
+    outline: solid 1px var(--titel-color);
+    box-shadow: 15px 15px var(--titel-color);
+}
+
+.top-of-card .Learn{
+    background: var(--bg-color);
+    width:min-content;
+    padding: .5rem;
+    margin-top: 1.5rem;
+    border-radius: .5rem;
+    font-weight: 800;
+    color: var(--titel-color);
+}
+.top-of-card h5{
+    margin-top: 1.5rem;
+}
+.top-of-card h1{
+    margin: 1rem 0;
+}
+.top-of-card h1 a{
+    color: var(--titel-color);
+    font-size: 1.5rem;
+    line-height:1 ;
+    font-weight: 800;
+}
+.top-of-card h1 a:hover{
+    color: var(--bg-color);
+}
+
+.top-of-card p{
+    color: var(--text-color500);
+    line-height: 1.5;
+}
+.botom-of-card{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: .5rem;
+}
+.botom-of-card img{
+    width:30px;
+}
+.botom-of-card h3{
+    font-weight: 800;
+}
+@media (max-width:375px) {
+    .top-of-card h1 a{
+        font-size: 1.25rem;
+    }
+}
