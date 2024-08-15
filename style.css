@@ -23,7 +23,7 @@ body{
     min-height: 100vh;
 }
 img{
-    width: 100%;
+    width:100%;
     display: block;
     border-radius: 1rem;
 }
@@ -34,12 +34,12 @@ img{
     background: var(--card-color);
     border-radius: 1rem;
     outline: solid 1px var(--titel-color);
-    box-shadow: 5px 5px var(--titel-color);
+    box-shadow:8.5px 8.5px var(--titel-color);
 }
 .top-of-card .Learn{
     background: var(--bg-color);
     width:min-content;
-    padding: .2rem .5rem;
+    padding: .2rem 1rem;
     margin-top: 1.3rem;
     border-radius: .3rem;
     font-weight: 800;
