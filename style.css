@@ -36,7 +36,6 @@ img{
     outline: solid 1px var(--titel-color);
     box-shadow: 5px 5px var(--titel-color);
 }
-
 .top-of-card .Learn{
     background: var(--bg-color);
     width:min-content;
